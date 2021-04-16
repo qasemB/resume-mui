@@ -5,8 +5,9 @@ const theme = createMuiTheme({
   direction: "rtl",
   palette: {
     primary: {
-      light: "rgba(10,64,44,1)",
-      main: "rgba(7,54,55,1)",
+      light: "rgba(7,54,55,1)",
+      main: "rgba(5,36,37,1)",
+      dark: "rgba(5,36,37,0.6)",
     },
     secondary: {
       light: "#ceb291",

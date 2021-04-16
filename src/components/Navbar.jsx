@@ -20,6 +20,7 @@ import {
 } from "@material-ui/icons";
 import { makeStyles } from "@material-ui/styles";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   menuSideContainer: {
     width: 250,
@@ -41,18 +42,22 @@ const menuItems = [
   {
     listIcon: <Home />,
     listText: "خانه",
+    listPath: "/",
   },
   {
     listIcon: <AssignmentInd />,
     listText: "ادامه",
+    listPath: "/resume",
   },
   {
     listIcon: <Apps />,
     listText: "نمونه کارها",
+    listPath: "/",
   },
   {
     listIcon: <ContactMail />,
     listText: "مخاطبین",
+    listPath: "/",
   },
 ];
 
@@ -72,7 +77,13 @@ const Navbar = () => {
         <Avatar className={classes.avatar} src="/images/avatar/qasem.jpg" />
         <List>
           {menuItems.map((t, k) => (
-            <ListItem button key={k}>
+            <ListItem
+              button
+              key={k}
+              component={Link}
+              to={t.listPath}
+              onClick={toggleSlider("isOpen", false)}
+            >
               <ListItemIcon className={classes.listItem} color={"secondary"}>
                 {t.listIcon}
               </ListItemIcon>
