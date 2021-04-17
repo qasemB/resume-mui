@@ -6,14 +6,12 @@ import RTL from "./components/Layouts/RTL";
 import ThemeMUI from "./components/Layouts/ThemeMUI";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ThemeMUI>
-      <RTL>
-        <BrowserRouter>
-          <App />
-        </BrowserRouter>
-      </RTL>
-    </ThemeMUI>
-  </React.StrictMode>,
+  <ThemeMUI>
+    <RTL>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </RTL>
+  </ThemeMUI>,
   document.getElementById("root")
 );

@@ -21,6 +21,7 @@ import {
 import { makeStyles } from "@material-ui/styles";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import FooterSide from "./FooterSide";
 const useStyles = makeStyles((theme) => ({
   menuSideContainer: {
     width: 250,
@@ -46,18 +47,18 @@ const menuItems = [
   },
   {
     listIcon: <AssignmentInd />,
-    listText: "ادامه",
+    listText: "سابقه فعالیت",
     listPath: "/resume",
   },
   {
     listIcon: <Apps />,
     listText: "نمونه کارها",
-    listPath: "/",
+    listPath: "/portfolio",
   },
   {
     listIcon: <ContactMail />,
-    listText: "مخاطبین",
-    listPath: "/",
+    listText: "ارتباط با من",
+    listPath: "/contacts",
   },
 ];
 
@@ -114,6 +115,7 @@ const Navbar = () => {
               open={sidemenuState.isOpen}
             >
               {sidemenu()}
+              <FooterSide />
             </Drawer>
           </Toolbar>
         </AppBar>

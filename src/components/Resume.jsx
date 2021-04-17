@@ -138,7 +138,7 @@ const Resume = () => {
           </Typography>
           <Typography
             align="center"
-            variant="subtitle"
+            variant="subtitle1"
             style={{ color: "tan" }}
           >
             اورم ایپسوم متن بی محتوا و ساختگی لورم ایپسوم متن بی محتوا و ساختگی
@@ -167,7 +167,7 @@ const Resume = () => {
           </Typography>
           <Typography
             align="center"
-            variant="subtitle"
+            variant="subtitle1"
             style={{ color: "tan" }}
           >
             اورم ایپسوم متن بی محتوا و ساختگی لورم ایپسوم متن بی محتوا و ساختگی
@@ -196,7 +196,7 @@ const Resume = () => {
           </Typography>
           <Typography
             align="center"
-            variant="subtitle"
+            variant="subtitle1"
             style={{ color: "tan" }}
           >
             اورم ایپسوم متن بی محتوا و ساختگی لورم ایپسوم متن بی محتوا و ساختگی
@@ -225,7 +225,7 @@ const Resume = () => {
           </Typography>
           <Typography
             align="center"
-            variant="subtitle"
+            variant="subtitle1"
             style={{ color: "tan" }}
           >
             اورم ایپسوم متن بی محتوا و ساختگی لورم ایپسوم متن بی محتوا و ساختگی
@@ -254,7 +254,7 @@ const Resume = () => {
           </Typography>
           <Typography
             align="center"
-            variant="subtitle"
+            variant="subtitle1"
             style={{ color: "tan" }}
           >
             اورم ایپسوم متن بی محتوا و ساختگی لورم ایپسوم متن بی محتوا و ساختگی
@@ -283,7 +283,7 @@ const Resume = () => {
           </Typography>
           <Typography
             align="center"
-            variant="subtitle"
+            variant="subtitle1"
             style={{ color: "tan" }}
           >
             اورم ایپسوم متن بی محتوا و ساختگی لورم ایپسوم متن بی محتوا و ساختگی
@@ -312,7 +312,7 @@ const Resume = () => {
           </Typography>
           <Typography
             align="center"
-            variant="subtitle"
+            variant="subtitle1"
             style={{ color: "tan" }}
           >
             اورم ایپسوم متن بی محتوا و ساختگی لورم ایپسوم متن بی محتوا و ساختگی
